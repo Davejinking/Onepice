@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-   "npm start": "node main.js"
-    },
+    "start": "node main.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^0.19.0",
     "cheerio": "^1.0.0-rc.3",
@@ -17,5 +16,15 @@
     "request": "^2.88.0",
     "winston": "^3.2.1",
     "winston-daily-rotate-file": "^4.2.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davejinking/Onepice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Davejinking/Onepice/issues"
+  },
+  "homepage": "https://github.com/Davejinking/Onepice#readme",
+  "description": ""
 }
