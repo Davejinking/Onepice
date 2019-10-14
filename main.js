@@ -155,4 +155,4 @@ client.on('message', msg => {
   onelib.Onefunc(msg);
 });
 
-client.login('NjIyODM0OTY2Mjc0NzY4OTA1.XYeEFg.3rDz4MpHJil9g5vIxeTjw_Mkf6M');
+client.login(process.env.BOT_TOKEN);
